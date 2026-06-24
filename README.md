@@ -1,39 +1,37 @@
-# Portfólio Pessoal — Engenharia de Software
+# Portfólio Pessoal — Felipe Pereira São Nicolau
 
-Site estático com 4 seções obrigatórias da atividade: **Sobre Mim**, **Formação**, **Portfólio** e **Contato**.
+Site pessoal desenvolvido como atividade prática da disciplina de Engenharia de Software, no Centro Universitário Internacional Uninter.
 
-## Arquivos
-- `index.html` — estrutura do site
-- `estilo.css` — visual (tema claro, com toques de "terminal/dev")
-- `script.js` — menu mobile, efeito de digitação, navegação ativa e validação do formulário
+🔗 **Site publicado:** https://ehfelipekk.github.io/meuportfolio/
 
-## 1. Conteúdo já personalizado ✅
-Os arquivos já estão com os dados do Felipe Pereira São Nicolau (nome, formação, contato). Falta só:
-- Trocar o "Ver site ↗" do card de projeto pelo link real depois de publicar no GitHub Pages
-- Adicionar sua foto na seção Sobre Mim (troque a div `.about__photo` por uma `<img src="sua-foto.jpg">`)
+## Sobre o projeto
 
-> O formulário de contato é só front-end (sem servidor). Ele valida os campos e mostra uma mensagem de sucesso, mas não envia email de verdade. Se quiser envio real, é possível integrar gratuitamente com [Formspree](https://formspree.io) ou [EmailJS](https://www.emailjs.com) depois.
+Um portfólio de página única com quatro seções:
 
-## 2. Suba para o GitHub
-```bash
-cd portfolio
-git init
-git add .
-git commit -m "primeira versão do portfólio"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-git push -u origin main
+- **Sobre Mim** — apresentação pessoal e formação
+- **Formação** — linha do tempo acadêmica, da Eletroeletrônica à Engenharia de Software
+- **Portfólio** — projeto em destaque
+- **Contato** — formulário com validação em JavaScript
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript (vanilla, sem frameworks)
+
+## Estrutura de arquivos
+
+```
+meuportfolio/
+├── index.html      # estrutura do site
+├── estilo.css      # estilos visuais
+├── script.js       # interatividade (menu, validação, navegação)
+└── foto.jpg        # foto de perfil
 ```
 
-## 3. Publique no GitHub Pages
-1. No repositório no GitHub, vá em **Settings → Pages**.
-2. Em "Source", selecione a branch `main` e a pasta `/ (root)`.
-3. Salve e aguarde alguns minutos. O link ficará algo como:
-   `https://SEU-USUARIO.github.io/SEU-REPOSITORIO/`
-4. **Importante** (conforme o enunciado): teste o link em uma aba anônima para garantir que ele abre direto no navegador, sem precisar de `localhost`.
+## Autor
 
-## 4. Para a entrega no Word
-- Cole o link publicado e o link do repositório no item 1 do documento.
-- Tire um print da estrutura de pastas (Explorer ou VS Code) para o item 2.
-- Tire prints das 4 seções do site **com a barra de endereço visível** (sem `127.0.0.1`/`localhost`) para o item 3.
-- Só cole o código-fonte no item 4 se não conseguir publicar o site.
+**Felipe Pereira São Nicolau**
+Estudante de Engenharia de Software · Técnico em Eletroeletrônica (SENAI)
+📧 felipepereirasao2013@gmail.com
+🔗 [github.com/ehfelipekk](https://github.com/ehfelipekk)
