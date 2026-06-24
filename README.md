@@ -32,6 +32,6 @@ meuportfolio/
 ## Autor
 
 **Felipe Pereira São Nicolau**
-Estudante de Engenharia de Software · Técnico em Eletroeletrônica (SENAI)
+Estudante de Engenharia de Software 
 📧 felipepereirasao2013@gmail.com
 🔗 [github.com/ehfelipekk](https://github.com/ehfelipekk)
