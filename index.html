@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Pereira São Nicolau — Desenvolvedor de Software</title>
+  <meta name="description" content="Portfólio de Felipe Pereira São Nicolau, estudante de Engenharia de Software.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGAÇÃO ===== -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a href="#topo" class="logo">~/<span>felipe-pereira</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre" class="nav__link" data-section="sobre"><span>01</span> Sobre Mim</a>
+        <a href="#formacao" class="nav__link" data-section="formacao"><span>02</span> Formação</a>
+        <a href="#portfolio" class="nav__link" data-section="portfolio"><span>03</span> Portfólio</a>
+        <a href="#contato" class="nav__link" data-section="contato"><span>04</span> Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Engenharia de Software · Uninter</p>
+        <h1>Felipe<span class="dot">.</span></h1>
+        <p class="hero__lead">Construo interfaces e sistemas pensando em clareza, performance e em quem vai usar.</p>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal__bar">
+            <span class="terminal__dot"></span>
+            <span class="terminal__dot"></span>
+            <span class="terminal__dot"></span>
+            <span class="terminal__title">bash</span>
+          </div>
+          <div class="terminal__body">
+            <p><span class="prompt">$</span> <span class="typed" id="typedLine"></span><span class="cursor">▌</span></p>
+          </div>
+        </div>
+
+        <div class="hero__cta">
+          <a href="#contato" class="btn btn--primary">Falar comigo</a>
+          <a href="#portfolio" class="btn btn--ghost">Ver projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 1. SOBRE MIM ===== -->
+    <section class="section" id="sobre">
+      <div class="section__head">
+        <span class="section__index">01</span>
+        <h2>Sobre Mim</h2>
+      </div>
+
+      <div class="about">
+        <div class="about__photo" aria-hidden="true">
+          <span>Sua foto aqui</span>
+        </div>
+
+        <div class="about__text">
+          <p>
+            Sou <strong>Felipe Pereira São Nicolau</strong>, estudante de <strong>Engenharia de Software</strong> no
+            Centro Universitário Internacional Uninter. Antes disso, me formei <strong>Técnico em Eletroeletrônica
+            pelo SENAI</strong>, o que me deu uma boa base de raciocínio lógico e resolução de problemas — algo que
+            uso bastante hoje em programação.
+          </p>
+          <p>
+            Estou no início da minha jornada em desenvolvimento web, aprendendo HTML, CSS e JavaScript na prática,
+            e com interesse em seguir explorando tanto front-end quanto back-end.
+          </p>
+
+          <ul class="tags">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git &amp; GitHub</li>
+            <li>Responsividade</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. FORMAÇÃO ===== -->
+    <section class="section section--alt" id="formacao">
+      <div class="section__head">
+        <span class="section__index">02</span>
+        <h2>Formação</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <p class="timeline__meta"><span class="commit">commit</span> 2024 — atual</p>
+          <h3>Engenharia de Software</h3>
+          <p>Centro Universitário Internacional Uninter</p>
+          <p class="timeline__desc">Formação em desenvolvimento de software, estruturas de dados, banco de dados e engenharia web.</p>
+        </li>
+
+        <li class="timeline__item">
+          <p class="timeline__meta"><span class="commit">commit</span> Técnico</p>
+          <h3>Técnico em Eletroeletrônica</h3>
+          <p>SENAI</p>
+          <p class="timeline__desc">Formação técnica com base em eletrônica, lógica e resolução de problemas — fundamentos que carrego para a programação.</p>
+        </li>
+
+        <li class="timeline__item">
+          <p class="timeline__meta"><span class="commit">commit</span> Ensino Médio</p>
+          <h3>Ensino Médio</h3>
+          <p>E.E. Professor Lysânias de Oliveira Campos</p>
+          <p class="timeline__desc">Etapa que despertou o interesse por tecnologia e abriu caminho para a formação técnica e a graduação.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== 3. PORTFÓLIO ===== -->
+    <section class="section" id="portfolio">
+      <div class="section__head">
+        <span class="section__index">03</span>
+        <h2>Portfólio</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__tag">Projeto 01</span>
+          </div>
+          <h3>Portfólio Pessoal</h3>
+          <p>Site responsivo desenvolvido para a atividade prática de Engenharia de Software, com seções de apresentação, formação e contato.</p>
+          <ul class="tags tags--small">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="#" target="_blank" rel="noopener">Ver site ↗</a>
+            <a href="https://github.com/ehfelipekk" target="_blank" rel="noopener">Código ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== 4. CONTATO ===== -->
+    <section class="section section--alt" id="contato">
+      <div class="section__head">
+        <span class="section__index">04</span>
+        <h2>Contato</h2>
+      </div>
+
+      <div class="contact">
+        <div class="contact__info">
+          <p>Tem um projeto em mente ou quer trocar uma ideia? Me envie uma mensagem.</p>
+          <ul class="contact__list">
+            <li><span>Email</span><a href="mailto:felipepereirasao2013@gmail.com">felipepereirasao2013@gmail.com</a></li>
+            <li><span>GitHub</span><a href="https://github.com/ehfelipekk" target="_blank" rel="noopener">github.com/ehfelipekk</a></li>
+          </ul>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            <span class="field__error" id="erroNome"></span>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            <span class="field__error" id="erroEmail"></span>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+            <span class="field__error" id="erroMensagem"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+          <p class="form__feedback" id="formFeedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="ano"></span> Felipe Pereira São Nicolau — feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
